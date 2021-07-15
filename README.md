@@ -13,5 +13,5 @@ Folder with [mock data](src/test/resources/mock_data) contains example of datase
 [Config](config.json) shows the example of configuration.
 To run this example use following command:
 ```shell
-bash psiminer.sh src/test/resources/mock_data output config.json 2> error_log.txt
+bash psiminer.sh psiminer-core/src/test/resources/mock_data output config.json 2> error_log.txt
 ```
