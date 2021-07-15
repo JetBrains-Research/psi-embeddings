@@ -12,7 +12,7 @@ tasks {
         val dataset: String? by project
         val output: String? by project
         val config: String? by project
-        args = listOfNotNull("psiminer", dataset, output, config)
+        args = listOfNotNull("metric", dataset, output, config)
         jvmArgs = listOf(
             "-Djava.awt.headless=true", "-Djdk.module.illegalAccess.silent=true",
             "--add-exports", "java.base/jdk.internal.vm=ALL-UNNAMED"
